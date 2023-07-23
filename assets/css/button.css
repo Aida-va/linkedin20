@@ -1,0 +1,18 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.btn-border {
+  width: 24px;
+  height: 24px;
+  border: solid;
+  border-radius: 4px;
+  border: 1px solid #069;
+  background: #fff;
+  cursor: pointer;
+}

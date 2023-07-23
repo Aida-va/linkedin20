@@ -1,0 +1,215 @@
+body {
+  padding: 56px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  z-index: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 12px;
+}
+.search {
+  width: 312px;
+  height: 32px;
+  border-radius: 4px;
+  background: rgba(222, 222, 222, 0.32);
+  padding: 7px 9px;
+}
+.search input {
+  background: transparent;
+  border: none;
+  flex-grow: 1;
+}
+.search input::placeholder {
+  color: var(--graytext);
+}
+.search i {
+  padding: 7px 9px;
+}
+
+.navbar {
+  padding-left: 68px;
+}
+
+.navbar a:not(:last-child) {
+  margin-right: 32px;
+}
+.navbar a span {
+  display: none;
+  transform: translateY(2px);
+}
+.navbar a.active span {
+  display: inline;
+  color: var(--primary);
+  font-weight: 500;
+}
+.navbar a.active i {
+  color: var(--primary);
+}
+.navbar .notificate {
+  width: 7px;
+  height: 7px;
+  display: flex;
+  border-radius: 999px;
+  background-color: #fc8338;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -25px;
+  border: 1px solid white;
+}
+.profile img {
+  width: 24px;
+  height: 24px;
+}
+.profile small {
+  color: #31b057;
+  display: block;
+  text-align: right;
+}
+.page-left,
+.page-right {
+  width: 270px;
+  flex-shrink: 0;
+}
+.page-content {
+  flex-grow: 1;
+}
+.profile-view .head {
+  background-image: url(../img/Screen-Shot-blue.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.profile-view .head figure {
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  border: 2px solid #fff;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.profile-view .item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.news .hashtag a:not(:last-child) {
+  margin-bottom: 8px;
+}
+.news .hashtag a i {
+  margin-right: 5px;
+}
+.news .users a:not(:last-child) {
+  margin-bottom: 8px;
+}
+.news .users a i {
+  margin-right: 8px;
+}
+.news .Group {
+  margin-top: 36px;
+}
+.create .create-text span {
+  outline: none;
+  border: none;
+}
+article figure .avatar {
+  width: 36px;
+  height: 36px;
+}
+article .description p {
+  column-gap: 2px;
+}
+article .linkedin-buttons i:not(:last-child) {
+  margin-right: 12px;
+}
+article button:not(:last-child) {
+  margin-right: 17px;
+}
+.linkedin-buttons span {
+  color: var(--graytext);
+  font-size: 16px;
+}
+.write-comment .comment {
+  width: 459px;
+  border-radius: 6px;
+  border: 1px solid #edf0f5;
+}
+.write-comment .comment input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+.write-comment .comment input::placeholder {
+  color: #dedede;
+  font-size: 14px;
+}
+.feeds .body img {
+  width: 24px;
+  height: 24px;
+}
+.feeds .body .list:not(:last-child) {
+  margin-bottom: 16px;
+}
+.recomendation {
+  margin-top: 36px;
+}
+.ads .body figure .ava {
+  width: 72px;
+  height: 72px;
+}
+.ads .body figure .tree {
+  width: 84px;
+  height: 84px;
+}
+.ads .body figure .tree img {
+  width: 72px;
+  height: 72px;
+  border: 2px solid #fff;
+}
+footer {
+  width: 270px;
+  margin-top: 54px;
+}
+footer .logo {
+  width: 44px;
+  height: 12px;
+}
+footer .footer a {
+  font-size: 10px;
+  color: var(--graytext);
+  margin-right: 15px;
+  margin-bottom: 16px;
+}
+.messaging {
+  bottom: 0px;
+  position: fixed;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 270px;
+  height: 56px;
+  background: linear-gradient(#006699, #009099);
+}
+
+.messaging .avatar {
+  width: 32px;
+  height: 32px;
+}
+.messaging .notificate {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  border-radius: 999px;
+  background-color: #31b057;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 25px;
+  border: 1px solid white;
+}
